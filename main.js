@@ -1,7 +1,6 @@
 'use strict';
 
 var videoElement = document.querySelector('video');
-var audioSelect = document.querySelector('select#audioSource');
 var videoSelect = document.querySelector('select#videoSource');
 
 navigator.mediaDevices.enumerateDevices()
